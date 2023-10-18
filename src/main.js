@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "@/router/index.js";
+// vant组件库
+import { Button } from "vant";
+import "vant/lib/index.css";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.use(router);
+app.use(Button);
+app.mount("#app");
