@@ -1,4 +1,4 @@
-# vu3_src
+# vue3_src
 
 ## Project setup
 ```
